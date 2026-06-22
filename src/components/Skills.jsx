@@ -25,7 +25,7 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold text-center mb-12 text-black dark:text-white"
         >
-          🛠 Skills & Technical Stack
+          Skills & Technical Stack
         </motion.h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
